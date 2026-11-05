@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none" stroke="#b08a4a" stroke-linecap="round" stroke-linejoin="round">
+  <!-- زخرفة ركن: فرع بورد وأوراق، بيتلف لكل ركن بالـ CSS -->
+  <path d="M6 6 C40 10 70 30 92 64 C108 90 118 120 120 154" stroke-width="1.6" />
+  <path d="M6 6 C10 40 30 70 64 92" stroke-width="1.4" opacity=".8" />
+
+  <!-- أوراق على الفرع -->
+  <path d="M40 22 C46 10 60 8 66 14 C58 22 48 26 40 22 Z" fill="#d8b878" fill-opacity=".35" stroke-width="1.2" />
+  <path d="M74 46 C86 40 98 46 98 54 C88 56 78 54 74 46 Z" fill="#d8b878" fill-opacity=".35" stroke-width="1.2" />
+  <path d="M100 86 C112 84 120 94 118 102 C108 100 102 94 100 86 Z" fill="#d8b878" fill-opacity=".35" stroke-width="1.2" />
+  <path d="M22 40 C10 46 8 60 14 66 C22 58 26 48 22 40 Z" fill="#d8b878" fill-opacity=".35" stroke-width="1.2" />
+  <path d="M44 72 C38 84 44 96 52 96 C54 86 52 76 44 72 Z" fill="#d8b878" fill-opacity=".35" stroke-width="1.2" />
+
+  <!-- وردة كبيرة في الركن -->
+  <g transform="translate(26 26)">
+    <circle r="15" fill="#f3e2b8" fill-opacity=".6" stroke-width="1.3" />
+    <path d="M0 -15 C8 -10 8 -2 0 0 C-8 -2 -8 -10 0 -15 Z" stroke-width="1.1" />
+    <path d="M15 0 C10 8 2 8 0 0 C2 -8 10 -8 15 0 Z" stroke-width="1.1" />
+    <path d="M0 15 C-8 10 -8 2 0 0 C8 2 8 10 0 15 Z" stroke-width="1.1" />
+    <path d="M-15 0 C-10 -8 -2 -8 0 0 C-2 8 -10 8 -15 0 Z" stroke-width="1.1" />
+    <circle r="3.5" fill="#b08a4a" stroke="none" />
+  </g>
+
+  <!-- ورد صغير على الفرع -->
+  <g transform="translate(84 58)">
+    <circle r="7" fill="#f3e2b8" fill-opacity=".6" stroke-width="1.1" />
+    <circle r="2" fill="#b08a4a" stroke="none" />
+  </g>
+  <g transform="translate(58 84)">
+    <circle r="6" fill="#f3e2b8" fill-opacity=".6" stroke-width="1.1" />
+    <circle r="1.8" fill="#b08a4a" stroke="none" />
+  </g>
+
+  <!-- نقط دهبي -->
+  <circle cx="112" cy="124" r="2" fill="#b08a4a" stroke="none" />
+  <circle cx="118" cy="140" r="1.5" fill="#b08a4a" stroke="none" />
+  <circle cx="76" cy="104" r="1.5" fill="#b08a4a" stroke="none" />
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#b08a4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- دبلتين متشبكين -->
+  <circle cx="18" cy="29" r="10" />
+  <circle cx="30" cy="29" r="10" />
+  <path d="M15 14l3-5 3 5-3 4z" fill="#b08a4a" fill-opacity=".25" />
+  <path d="M33 8v4M29 10h8" opacity=".7" />
+  <path d="M38 16v2.5M36.75 17.25h2.5" opacity=".5" />
+</svg>
