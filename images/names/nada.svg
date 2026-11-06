@@ -2,19 +2,18 @@
   <defs>
     <!-- Solid Light Cream Background -->
     <style>
-      .bg { fill: #f5eedc; }
-      .text-base { font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif; font-weight: bold; font-size: 260px; text-anchor: middle; }
+      .nd-text { font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif; font-weight: bold; font-size: 260px; text-anchor: middle; }
     </style>
 
     <!-- Metallic Gold Gradients -->
-    <linearGradient id="gold3D" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="nd-gold3D" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#4a2e00" />
       <stop offset="30%" stop-color="#8a5a1b" />
       <stop offset="70%" stop-color="#5c3a09" />
       <stop offset="100%" stop-color="#2b1a00" />
     </linearGradient>
 
-    <linearGradient id="goldFront" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="nd-goldFront" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffe8a3" />
       <stop offset="25%" stop-color="#d49b4b" />
       <stop offset="50%" stop-color="#fff3c4" />
@@ -22,7 +21,7 @@
       <stop offset="100%" stop-color="#ffd97d" />
     </linearGradient>
 
-    <linearGradient id="goldBevel" x1="0%" y1="100%" x2="100%" y2="0%">
+    <linearGradient id="nd-goldBevel" x1="0%" y1="100%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
       <stop offset="30%" stop-color="#ffe394" />
       <stop offset="70%" stop-color="#9e691b" />
@@ -30,7 +29,7 @@
     </linearGradient>
 
     <!-- Glitter / Texture Pattern -->
-    <pattern id="glitterPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <pattern id="nd-glitterPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="3" r="0.8" fill="#ffffff" opacity="0.7" />
       <circle cx="12" cy="7" r="0.6" fill="#fff5cc" opacity="0.8" />
       <circle cx="7" cy="15" r="0.7" fill="#ffffff" opacity="0.6" />
@@ -38,52 +37,51 @@
     </pattern>
 
     <!-- Soft Drop Shadow -->
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+    <filter id="nd-softShadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#4a3518" flood-opacity="0.25" />
       <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity="0.15" />
     </filter>
 
     <!-- Sparkle Shape -->
-    <g id="sparkle">
+    <g id="nd-sparkle">
       <path d="M 0,-12 Q 0,0 12,0 Q 0,0 0,12 Q 0,0 -12,0 Q 0,0 0,-12 Z" fill="#ffffff" />
       <circle cx="0" cy="0" r="3" fill="#fff6d1" />
     </g>
   </defs>
 
-
   <!-- Main Name Group -->
-  <g filter="url(#softShadow)" transform="translate(0, 40)">
+  <g filter="url(#nd-softShadow)" transform="translate(0, 40)">
     
     <!-- 3D Extrusion Layers (Depth) -->
-    <g fill="url(#gold3D)">
-      <text x="500" y="342" class="text-base">نـدى</text>
-      <text x="500" y="340" class="text-base">نـدى</text>
-      <text x="500" y="338" class="text-base">نـدى</text>
-      <text x="500" y="336" class="text-base">نـدى</text>
-      <text x="500" y="334" class="text-base">نـدى</text>
-      <text x="500" y="332" class="text-base">نـدى</text>
-      <text x="500" y="330" class="text-base">نـدى</text>
-      <text x="500" y="328" class="text-base">نـدى</text>
-      <text x="500" y="326" class="text-base">نـدى</text>
-      <text x="500" y="324" class="text-base">نـدى</text>
+    <g fill="url(#nd-gold3D)">
+      <text x="500" y="342" class="nd-text">نـدى</text>
+      <text x="500" y="340" class="nd-text">نـدى</text>
+      <text x="500" y="338" class="nd-text">نـدى</text>
+      <text x="500" y="336" class="nd-text">نـدى</text>
+      <text x="500" y="334" class="nd-text">نـدى</text>
+      <text x="500" y="332" class="nd-text">نـدى</text>
+      <text x="500" y="330" class="nd-text">نـدى</text>
+      <text x="500" y="328" class="nd-text">نـدى</text>
+      <text x="500" y="326" class="nd-text">نـدى</text>
+      <text x="500" y="324" class="nd-text">نـدى</text>
     </g>
 
     <!-- Bevel Outline Layer -->
-    <text x="500" y="322" class="text-base" fill="none" stroke="url(#goldBevel)" stroke-width="8" stroke-linejoin="round">نـدى</text>
+    <text x="500" y="322" class="nd-text" fill="none" stroke="url(#nd-goldBevel)" stroke-width="8" stroke-linejoin="round">نـدى</text>
 
     <!-- Front Surface Fill -->
-    <text x="500" y="320" class="text-base" fill="url(#goldFront)">نـدى</text>
+    <text x="500" y="320" class="nd-text" fill="url(#nd-goldFront)">نـدى</text>
 
     <!-- Glitter Overlay -->
-    <text x="500" y="320" class="text-base" fill="url(#glitterPattern)" opacity="0.85">نـدى</text>
+    <text x="500" y="320" class="nd-text" fill="url(#nd-glitterPattern)" opacity="0.85">نـدى</text>
 
     <!-- Inner Highlight Lines -->
-    <text x="500" y="320" class="text-base" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5">نـدى</text>
+    <text x="500" y="320" class="nd-text" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5">نـدى</text>
 
     <!-- Sparkles on Highlights -->
-    <use href="#sparkle" x="250" y="310" transform="scale(0.8)" />
-    <use href="#sparkle" x="335" y="165" transform="scale(1.2)" />
-    <use href="#sparkle" x="720" y="270" transform="scale(0.9)" />
-    <use href="#sparkle" x="650" y="180" transform="scale(0.7)" />
+    <use href="#nd-sparkle" x="250" y="310" transform="scale(0.8)" />
+    <use href="#nd-sparkle" x="335" y="165" transform="scale(1.2)" />
+    <use href="#nd-sparkle" x="720" y="270" transform="scale(0.9)" />
+    <use href="#nd-sparkle" x="650" y="180" transform="scale(0.7)" />
   </g>
 </svg>
